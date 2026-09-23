@@ -1,0 +1,13 @@
+<table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+        <th>Nama</th>
+        <th>Alamat</th>
+        <th>No. HP</th>
+        <th>Email</th>
+        <th>Sosial Media</th>
+    </tr>
+    <tr>
+        <td>Siti Jumiati</td>
+        <td>Jl. H. Hasan Basri, Gang Rahim I, RT.14/RW.2, Kelurahan Pangeran, Banjarmasin Utara</td>
+        <td>0838-9027-0732</td>
+        <td>
