@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>katalog produk & portofolio - poliban digitcracft studio</title>
+    <!--1. MENGHUBUNGKAN EXTERNAL CSS GLOBAL -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,70 +16,133 @@
             <h1>Poliban digitCraft studio </h1>
             <p>solusi tranformasi bisnis digital and a di banjarmasin</p>
             <nav>
+                <a href="index.html">Beranda</a>
                 <a href="biodata.html ">tentang folder</a> |
                 <a href="produk.html" class="active">katalog jasa & paket harga</a> |
                 <a href="kontak.html">kontak & pemesanan</a>
             </nav>
         </div>
     </header>
-    <section>
-        <h2>portopolio & karya unggulan </h2>
 
-        <p>
-            <img src="apa_itu_landing_page.jpg" alt="foto" width="450">
-            <br>
-            <em>gamabar 1: desain landing page respomsif untuk umkm lokal</em>
-        </p>
-    </section>
-    <hr>
-    <section>
-        <h2>paket layanan & harga jasa kreatif</h2>
-        <p>pilih paket layanan terbaik sesuai kebutuhan bisnis digital anda:</p>
+    <main class="container">
+        <!-- SEKSI PORTOFOLIO UTAMA ( CARD LAYOUT) -->
+        <section class="section">
+            <h2 class="section-title">portofolio karya unggulan kami</h2>
+            <p class="section-subtitle">beberapa proyek digital yang telah kami selesaikan untuk klien UMKM lokal</p>
 
-        <table border="1" cellpadding="8" cellspacing="0">
-            <thead>
-                <tr bgcolor="#008080">
-                    <th colspan="4">
-                        <font color="white">DAFTAR HARGA JASA AGENSI DIGITAL</font>
-                    </th>
-                </tr>
-                <tr bgcolor="#F4F7F6">
-                    <th>katagori layanan</th>
-                    <th>nama paket</th>
-                    <th>fasilitas utama</th>
-                    <th>estimasi biaya</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td rowspan="2"><b>desain & web</b></td>
-                    <td>landing page silver</td>
-                    <td>1 halaman ,kotak from,integrasi chat </td>
-                    <td>Rp.1.500.000</td>
-                </tr>
-                <tr>
-                    <td>website bisnis gold</td>
-                    <td>5 halaman, SEO dasar , galeri produk dinamis</td>
-                    <td>Rp.3.500.000</td>
-                </tr>
-                <tr>
-                    <td rowspan="2"><b>content creator</b></td>
-                    <td>sosmed bronze</td>
-                    <td>12 konten feed,copywriting dasar</td>
-                    <td>Rp.1.000.000</td>
-                </tr>
-                <tr>
-                    <td>sosmed prenium</td>
-                    <td>30 konten feed + reals, riset hastag ,admin sosmed</td>
-                    <td>Rp.2.000.000</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    <footer>
+            <div class="card-grid">
+                <!-- kartu portofolio 1-->
+                <article class="card">
+                    <img src="apa_itu_landing_page.jpg" alt="mockop desain" class="card-img">
+
+                    <div class="card-body">
+                        <h3 class="card-title">landing page UMKM lokal</h3>
+                        <p class="card-text">desain landing page modern, cepat, dan respontif untuk meningkatkan
+                            penjualan produk lokal.</p>
+                    </div>
+                </article>
+            </div>
+<section>
+            <!-- kartu portofolio 2 ( video profile) -->
+            <article class="card">
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/UExdsObbfcw?si=t_ux7vf4wViiRP1"
+                        title="youtube video player" allowfullscreen></iframe>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">video profil binis</h3>
+                    <p class="card-text">saksikan video pengenalan profil studio dan alur kerja profesional tim kreatif
+                        kami.</p>
+                </div>
+            </article>
+        </section>
+
+        <!-- SEKSI KATALOG PAKET LAYANAN (PRICING CARD)-->
+        <section class="section">
+            <h2 class="section-title">paket layanan & harga jasa kreatif</h2>
+            <p class="section-subtitle">pilih paket layanan terbaik sesuai kebutuhan bisnis digital anda</p>
+
+            <div class="card-grid">
+                <!-- paket 1 : landing page silver -->
+                <article class="card pricing-card">
+                    <h2 class="section-title">paket layanan & harga jasa kreatif</h2>
+                    <P class="section-subtitle">pilih paket layanan terbaik sesuai kebutuuhan bisnis digital anda</P>
+                    <div class="card-grid">
+                        <!-- paket 1 : landing page silver -->
+                         <article class="card princing-card">
+                            <span class="badge">web Development</span>
+                            <h3 class="card-title">landing page silver</h3>
+                            <p class="card-price">Rp 1.500.000</p>
+                            <ul class="card-features">
+                                <li>1 halaman web respontif</li>
+                                <li>Formulir kontak pemesanan</li>
+                                <li>integrasi chat whatsaap</li>
+                            </ul>
+                            <a href="kontak.html" class="btn-primary">pesan paket</a>
+                        </div>
+                         </article>
+                    
+
+                         <!-- paket 2 : website bisnis gold -->
+                    
+                    
+                    <h2>portopolio & karya unggulan </h2>
+
+                        <p>
+
+                            <br>
+                            <em>gamabar 1: desain landing page respomsif untuk umkm lokal</em>
+                        </p>
+        </section>
         <hr>
-        <p align="center">&copy; 2026 poliban digitCraft studio - hak cipta dilindungi undang-undang.</p>
-    </footer>
+        <section>
+            <h2>paket layanan & harga jasa kreatif</h2>
+            <p>pilih paket layanan terbaik sesuai kebutuhan bisnis digital anda:</p>
+
+            <table border="1" cellpadding="8" cellspacing="0">
+                <thead>
+                    <tr bgcolor="#008080">
+                        <th colspan="4">
+                            <font color="white">DAFTAR HARGA JASA AGENSI DIGITAL</font>
+                        </th>
+                    </tr>
+                    <tr bgcolor="#F4F7F6">
+                        <th>katagori layanan</th>
+                        <th>nama paket</th>
+                        <th>fasilitas utama</th>
+                        <th>estimasi biaya</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2"><b>desain & web</b></td>
+                        <td>landing page silver</td>
+                        <td>1 halaman ,kotak from,integrasi chat </td>
+                        <td>Rp.1.500.000</td>
+                    </tr>
+                    <tr>
+                        <td>website bisnis gold</td>
+                        <td>5 halaman, SEO dasar , galeri produk dinamis</td>
+                        <td>Rp.3.500.000</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2"><b>content creator</b></td>
+                        <td>sosmed bronze</td>
+                        <td>12 konten feed,copywriting dasar</td>
+                        <td>Rp.1.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>sosmed prenium</td>
+                        <td>30 konten feed + reals, riset hastag ,admin sosmed</td>
+                        <td>Rp.2.000.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <footer>
+            <hr>
+            <p align="center">&copy; 2026 poliban digitCraft studio - hak cipta dilindungi undang-undang.</p>
+        </footer>
 </body>
 
 </html>
