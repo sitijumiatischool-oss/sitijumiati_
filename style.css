@@ -450,5 +450,7 @@ footer {
     overflow: hidden;
     margin-top: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    line-height: 0; /* Menghilangkan gap bawah iframe */
+    line-height: 0;
+    /* Menghilangkan gap bawah iframe */
 }
+
